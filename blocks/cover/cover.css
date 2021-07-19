@@ -1,0 +1,30 @@
+.cover {
+  background-image: url(../../images/cover__background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover__title {
+  margin: 0;
+  padding: 33px 16px 16px;
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.cover__subtitle {
+  margin: 0;
+  padding: 0 16px 33px;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
