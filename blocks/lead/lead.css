@@ -1,6 +1,7 @@
 .lead {
   margin: 0;
   padding: 0;
+  margin-bottom: 64px;
 }
 
 .lead__title {
