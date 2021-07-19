@@ -1,0 +1,11 @@
+.photo-grid {
+  padding: 0 16px;
+  margin-bottom: 64px;
+
+  display: grid;
+  gap: 12px;
+}
+
+.photo-grid__item {
+
+}
