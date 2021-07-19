@@ -51,7 +51,13 @@
   text-align: left;
 
   color: #FFFFFF;
+  transition: opacity .3s linear;
 }
+.place__url-link:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
 .place__image {
   max-width: 320px;
   margin-bottom: 32px;

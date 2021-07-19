@@ -3,17 +3,26 @@
   padding: 0;
   margin-bottom: 48px;
 
-  padding: 16px;
-  padding-bottom: 0;
+  padding: 16px 16px 0px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+@media (min-width: 768px) {
+  .header {
+    padding: 28px 24px 0px;
+  }
+}
 
 .header__logo {
   flex-grow: 1;
   max-width: 142px;
+}
+@media (min-width: 768px) {
+  .header__logo {
+    max-width: 176px;
+  }
 }
 
 .header__lang-links {
@@ -35,6 +44,12 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: right;
+}
+@media (min-width: 768px) {
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 .header__lang-link:last-child {
   margin-right: 0;
