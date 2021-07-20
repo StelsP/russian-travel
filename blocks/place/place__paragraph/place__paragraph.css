@@ -1,0 +1,26 @@
+.place__paragraph {
+  margin: 0;
+  padding: 0 16px;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .place__paragraph {
+    padding: 0;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}

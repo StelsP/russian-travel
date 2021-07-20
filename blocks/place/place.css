@@ -1,0 +1,44 @@
+.place {
+  margin-bottom: 50px;
+
+  display: grid;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .place {
+    gap: 28px;
+    grid-template-columns: 340px auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place {
+    gap: 32px;
+    grid-template-columns: 440px auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place {
+    gap: 40px;
+    grid-template-columns: 460px auto;
+  }
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

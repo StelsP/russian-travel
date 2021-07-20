@@ -1,0 +1,21 @@
+.footer__link-item {
+  margin: 0;
+  padding: 0;
+
+  margin-bottom: 32px;
+}
+
+.footer__link-item:last-child {
+  margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  .footer__link-item {
+    margin-bottom: 0;
+    margin-right: 18px;
+  }
+  .footer__link-item:last-child {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+}

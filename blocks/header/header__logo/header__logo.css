@@ -1,0 +1,10 @@
+.header__logo {
+  flex-grow: 1;
+  max-width: 142px;
+}
+
+@media (min-width: 768px) {
+  .header__logo {
+    max-width: 176px;
+  }
+}

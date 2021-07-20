@@ -1,0 +1,13 @@
+.footer__links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+  .footer__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
