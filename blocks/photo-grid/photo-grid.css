@@ -1,6 +1,7 @@
 .photo-grid {
-  margin: 0 auto;
-  padding: 0 16px;
+  margin: 0;
+  padding: 0;
+
   margin-bottom: 64px;
   list-style-type: none;
 
@@ -11,32 +12,29 @@
 }
 @media (min-width:768px) {
   .photo-grid {
-    padding: 0 24px;
     margin-bottom: 88px;
 
     grid-gap: 16px;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, auto);
   }
 }
 @media (min-width:1024px) {
   .photo-grid {
-    padding: 0 48px;
     margin-bottom: 92px;
 
     grid-gap: 14px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, auto);
   }
 }
 @media (min-width:1280px) {
   .photo-grid {
     grid-gap: 16px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, auto);
   }
 }
 
-.photo-grid__item {
+.photo-grid__item {}
 
-}
 @media (min-width:768px) {
   .photo-grid__item {
     min-width: 352px;
