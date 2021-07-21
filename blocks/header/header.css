@@ -11,8 +11,10 @@
 
 @media (min-width: 768px) {
   .header {
+    padding-top: 28px;
     padding-left: 24px;
     padding-right: 24px;
+
   }
 }
 
@@ -20,6 +22,12 @@
   .header {
     padding-left: 48px;
     padding-right: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    padding-bottom: 56px;
   }
 }
 
