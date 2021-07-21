@@ -11,15 +11,18 @@
   letter-spacing: 0em;
   text-align: right;
 }
+
 @media (min-width: 768px) {
   .header__lang-link {
     font-size: 24px;
     line-height: 28px;
   }
 }
+
 .header__lang-link:last-child {
   margin-right: 0;
 }
+
 .header__lang-link:first-child {
   text-decoration: underline;
 }

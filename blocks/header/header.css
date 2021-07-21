@@ -1,19 +1,21 @@
 .header {
   margin: 0;
   padding: 0;
-  margin-bottom: 48px;
 
-  padding: 16px 16px 0px;
+  padding: 16px 16px 48px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 @media (min-width: 768px) {
   .header {
-    padding: 28px 24px 0px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
+
 @media (min-width: 1024px) {
   .header {
     padding-left: 48px;
