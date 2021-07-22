@@ -2,12 +2,19 @@
   max-width: 320px;
 }
 
+@media (min-width: 336px) {
+  .place__image {
+    padding-left: 16px;
+  }
+}
+
 @media (min-width: 768px) {
   .place__image {
+    padding: 0;
     max-width: 340px;
     margin: 0;
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: 3;
   }
 }
 

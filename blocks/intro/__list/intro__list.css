@@ -4,3 +4,10 @@
 
   list-style-type: none;
 }
+
+@media (min-width: 1024px) {
+  .intro__list {
+    max-width: 690px;
+  }
+}
+

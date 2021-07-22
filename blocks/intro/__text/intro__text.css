@@ -11,3 +11,10 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+@media (min-width: 1024px) {
+  .intro__text {
+    max-width: 690px;
+  }
+}
+

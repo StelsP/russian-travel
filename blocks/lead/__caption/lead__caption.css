@@ -1,7 +1,6 @@
 .lead__caption {
-  margin: 0;
-  padding: 0;
-  padding-left: 16px;
+  margin: 0 auto;
+  padding: 0 16px;
 
   font-size: 10px;
   font-style: normal;
@@ -10,22 +9,24 @@
   letter-spacing: 1.5px;
   text-align: left;
   text-transform: uppercase;
+
+  max-width: 928px;
 }
 
 @media (min-width:768px) {
   .lead__caption {
-    padding-left: 24px;
+    padding: 0 24px;
   }
 }
 
 @media (min-width:1024px) {
   .lead__caption {
-    padding-left: 48px;
+    padding: 0;
   }
 }
 
 @media (min-width:1280px) {
   .lead__caption {
-    padding-left: 148px;
+    max-width: 984px;
   }
 }
