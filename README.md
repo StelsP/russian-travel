@@ -9,4 +9,4 @@
 + Grid Layout
 + Flexbox-вёрстка
 + Медиазапросы
-+ [Ссылка на GitHub Pages](https://stelsp.github.io/russian-travel/)
+## [Ссылка на GitHub Pages](https://stelsp.github.io/russian-travel/)
